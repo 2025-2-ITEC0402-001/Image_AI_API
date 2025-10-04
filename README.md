@@ -5,7 +5,7 @@
 mkdir flux-storyboard-api
 cd flux-storyboard-api
 
-git clone [지금 레포]
+git clone https://github.com/2025-2-ITEC0402-001/Image_AI_API.git
 
 conda env create -f environment.yml
 ```
