@@ -6,7 +6,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__) # <-- 이 줄이 추가되었습니다.
+logger = logging.getLogger(__name__) 
 
 app = FastAPI(title="FLUX Generate API")
 pipe = None
