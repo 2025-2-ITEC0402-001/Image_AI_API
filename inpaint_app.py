@@ -6,7 +6,7 @@ from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import StreamingResponse
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__) # <-- 이 줄이 추가되었습니다.
+logger = logging.getLogger(__name__) 
 
 app = FastAPI(title="FLUX Inpaint API")
 pipe = None
